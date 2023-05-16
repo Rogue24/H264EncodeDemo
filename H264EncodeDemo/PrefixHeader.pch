@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  H264EncodeDemo
+//
+//  Created by 周健平 on 2023/5/15.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define JPH264Path [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"zhoujianping.h264"]
+
+#endif /* PrefixHeader_pch */
